@@ -56,8 +56,8 @@ const Hero = () => {
           className="mt-10 flex flex-col gap-8 md:flex-row md:items-end md:justify-between"
         >
           <p className="max-w-md text-base leading-relaxed text-slate-300 md:text-lg">
-            DStv, satellite, CCTV, gate motors, garage doors, aircon, painting, waterproofing and
-            TV mounting — sixteen trades, one trusted Gauteng team.
+            DStv, satellite, Extra View & Triple View, CCTV, gate motors, garage doors, aircon,
+            painting, waterproofing and TV mounting — sixteen trades, one trusted Gauteng team.
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <Link

@@ -81,3 +81,6 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 - Added service #16 "Roofing Services" (Construction icon, roof-truss photo, Home & Comfort category).
 - Updated all counts site-wide: hero copy, stats, featured card, footer, Services page header + SEO now say 16/sixteen.
 - Verified via screenshot; quote form dropdown auto-includes Roofing (built from SERVICES).
+
+## Update — 25 June 2026 (Triple View mention)
+- Added "Triple View" to landing page: hero intro copy, chapter 01 "Signal, perfected" copy + tag chip, and Extra View service blurb now says "Extra View and Triple View". Verified via screenshot (3 mentions on Home).

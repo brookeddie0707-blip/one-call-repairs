@@ -41,7 +41,7 @@ export const SERVICES = [
   { num: "10", title: "Air Conditioning Installations & Repairs", icon: AirVent, category: "Home & Comfort", image: "/images/samsung-aircon-install.jpeg", blurb: "Split-unit aircons installed, regassed and repaired — sized correctly for your rooms." },
   { num: "11", title: "Waterproofing Services", icon: Droplets, category: "Home & Comfort", image: "/images/roof-waterproofing-seal.jpeg", blurb: "Roof, parapet and balcony waterproofing that stops leaks at the source." },
   { num: "12", title: "TV Mounting Services", icon: Tv, category: "Home & Comfort", image: "/images/smart-tv-wall-mount-install.jpeg", blurb: "Any TV, any wall — flush, tilt or full-motion brackets with cables neatly concealed." },
-  { num: "13", title: "Extra View Installations", icon: Share2, category: "Signal & Satellite", image: "/images/dstv-explora-cable-kit.jpeg", blurb: "DStv Extra View configured so every room watches independently from one subscription." },
+  { num: "13", title: "Extra View Installations", icon: Share2, category: "Signal & Satellite", image: "/images/dstv-explora-cable-kit.jpeg", blurb: "DStv Extra View and Triple View configured so every room watches independently from one subscription." },
   { num: "14", title: "LNB Replacements", icon: Replace, category: "Signal & Satellite", image: "/images/satellite-dish-kit.jpeg", blurb: "Faulty smart, quad or universal LNBs swapped and signal re-peaked same day." },
   { num: "15", title: "DStv Decoder Repairs", icon: HardDrive, category: "Signal & Satellite", image: "/images/dstv-explora-decoder-kit.jpeg", blurb: "Explora and HD decoder faults — power, HDMI, hard drive and software issues repaired." },
   { num: "16", title: "Roofing Services", icon: Construction, category: "Home & Comfort", image: "/images/roof-truss-construction.jpeg", blurb: "Roof trusses, sheeting, tiling and repairs — new roofs erected and old ones restored." },
@@ -51,9 +51,9 @@ export const CHAPTERS = [
   {
     num: "01",
     title: "Signal, perfected.",
-    copy: "DStv, OpenView, satellite dishes, Extra View and every cryptic error code in between. We align, we cable, we activate — you just press play.",
+    copy: "DStv, OpenView, satellite dishes, Extra View, Triple View and every cryptic error code in between. We align, we cable, we activate — you just press play.",
     image: "/images/dstv-dish-installation.jpeg",
-    tags: ["DStv", "OpenView", "E48-32", "Extra View", "LNB"],
+    tags: ["DStv", "OpenView", "E48-32", "Extra View", "Triple View", "LNB"],
   },
   {
     num: "02",
