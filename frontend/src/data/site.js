@@ -77,7 +77,12 @@ export const AREAS = [
   "Boksburg", "Benoni", "Alberton", "Springs", "Krugersdorp", "Vanderbijlpark",
   "Vereeniging", "Brakpan", "Hartbeespoort", "Midstream", "Fourways", "Moreleta Park",
   "Bryanston", "Ferndale", "Lonehill", "Lynnwood", "Northmead", "Carlswald",
-  "Garsfontein", "Northcliff",
+  "Garsfontein", "Northcliff", "Ackerland", "Braamfontein Werf", "Bromhof", "Florida",
+  "Gallo Manor", "Constantia Park", "Halfway House", "Halfway Gardens", "Hatfield",
+  "Die Hoewes", "Isando", "Fairland", "Fordsburg", "Houghton Estate", "Vorna Valley",
+  "Benmore Gardens", "Sandown", "Douglasdale", "Noordwyk", "Linden", "Faerie Glen",
+  "The Orchards", "Glen Marais", "Pretoria East", "Pretoria West", "Johannesburg South",
+  "Woodmead",
 ];
 
 export const GALLERY = [

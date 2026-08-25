@@ -84,3 +84,6 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 
 ## Update — 25 June 2026 (Triple View mention)
 - Added "Triple View" to landing page: hero intro copy, chapter 01 "Signal, perfected" copy + tag chip, and Extra View service blurb now says "Extra View and Triple View". Verified via screenshot (3 mentions on Home).
+
+## Update — 25 June 2026 (27 more service areas)
+- Added 27 areas (Ackerland, Braamfontein Werf, Bromhof, Florida, Gallo Manor, Constantia Park, Halfway House, Halfway Gardens, Hatfield, Die Hoewes, Isando, Fairland, Fordsburg, Houghton Estate, Vorna Valley, Benmore Gardens, Sandown, Douglasdale, Noordwyk, Linden, Faerie Glen, The Orchards, Glen Marais, Pretoria East, Pretoria West, Johannesburg South, Woodmead). AREAS now 59 suburbs. "Lactations" line treated as list heading (Locations). Verified via screenshot.
