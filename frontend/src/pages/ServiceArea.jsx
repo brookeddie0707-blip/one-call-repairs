@@ -10,7 +10,7 @@ export default function ServiceArea() {
     <>
       <Seo
         title="Service Area — Gauteng Coverage | Wise Tech Installers"
-        description="Wise Tech Installers covers all of Gauteng: Johannesburg, Sandton, Pretoria, Centurion, Midrand, Randburg, Soweto, the East Rand, West Rand & Vaal. Call 073 052 6871."
+        description="Wise Tech Installers covers all of Gauteng: Johannesburg, Sandton, Pretoria, Centurion, Midrand, Randburg, Soweto, the East Rand, West Rand & Vaal. Call 078 294 7173."
       />
       <PageHeader
         eyebrow="Service area"

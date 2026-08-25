@@ -11,8 +11,8 @@ import { BUSINESS, CHAPTERS, SERVICES, GALLERY, AREAS } from "@/data/site";
 const FEATURED = [
   { service: SERVICES[0], image: "/images/dstv-dish-installation.jpeg", span: "lg:col-span-2" },
   { service: SERVICES[3], span: "" },
-  { service: SERVICES[5], image: GALLERY[6].src, span: "" },
-  { service: SERVICES[11], image: GALLERY[7].src, span: "" },
+  { service: SERVICES[5], image: "/images/cctv-bullet-camera-install.jpeg", span: "" },
+  { service: SERVICES[11], image: "/images/smart-tv-wall-mount-install.jpeg", span: "" },
   { service: SERVICES[7], span: "" },
 ];
 
@@ -365,7 +365,7 @@ export default function Home() {
     <>
       <Seo
         title="Wise Tech Installers | DStv, CCTV, Gate Motors & Repairs — Gauteng"
-        description="One call for all installations & repairs in Gauteng: DStv, satellite dishes, CCTV, gate motors, garage doors, aircon, painting, waterproofing & TV mounting. Call 073 052 6871."
+        description="One call for all installations & repairs in Gauteng: DStv, satellite dishes, CCTV, gate motors, garage doors, aircon, painting, waterproofing & TV mounting. Call 078 294 7173."
       />
       <Hero />
       <ServiceMarquee />

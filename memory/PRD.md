@@ -42,3 +42,10 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 ### Remaining backlog
 - P1: Google Map embed of Gauteng coverage on Service Area/Contact page
 - P2: "From-pricing" guide on popular services (TV mounting, E48-32 fixes)
+
+## Update — 25 June 2026 (later same session)
+- Phone number changed everywhere: 073 052 6871 → 078 294 7173 (site.js BUSINESS phoneDisplay/phoneLink/whatsapp wa.me/27782947173, SEO descriptions in Home/ServiceArea/Contact, index.html meta + JSON-LD telephone). Verified no old number remains.
+- Added 5 new customer photos: cctv-bullet-camera-install, cctv-dome-camera-install, cctv-system-diagram, smart-tv-wall-mount-install, tv-mount-lounge-install.
+- Services page cards now support optional background photo (CCTV #06 + TV Mounting #12 use real photos).
+- Home: chapter 02 image + Featured CCTV/TV-mounting cards now use real photos (fixed stale GALLERY index refs).
+- Gallery now 23 items. Verified via screenshots.

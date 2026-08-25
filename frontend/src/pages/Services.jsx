@@ -32,9 +32,23 @@ export default function Services() {
                     to={`/contact`}
                     state={{ service: s.title }}
                     data-testid={`service-card-${s.num}`}
-                    className="group relative flex h-full flex-col border-b border-r border-white/10 p-8 transition-[background-color] duration-500 hover:bg-white/[0.03] lg:p-10"
+                    className="group relative flex h-full flex-col overflow-hidden border-b border-r border-white/10 p-8 transition-[background-color] duration-500 hover:bg-white/[0.03] lg:p-10"
                   >
-                    <div className="flex items-start justify-between">
+                    {s.image && (
+                      <>
+                        <img
+                          src={s.image}
+                          alt={s.title}
+                          loading="lazy"
+                          className="absolute inset-0 h-full w-full object-cover opacity-35 transition-[opacity,transform] duration-700 group-hover:scale-105 group-hover:opacity-50"
+                        />
+                        <div
+                          className="absolute inset-0 bg-gradient-to-t from-navy via-navy/60 to-navy/30"
+                          aria-hidden="true"
+                        />
+                      </>
+                    )}
+                    <div className="relative flex items-start justify-between">
                       <span className="font-display text-sm font-bold text-gold">{s.num}</span>
                       <Icon
                         size={30}
@@ -42,11 +56,11 @@ export default function Services() {
                         className="text-slate-500 transition-colors duration-500 group-hover:text-gold"
                       />
                     </div>
-                    <h2 className="mt-8 font-display text-xl font-extrabold leading-tight tracking-tight lg:text-2xl">
+                    <h2 className="relative mt-8 font-display text-xl font-extrabold leading-tight tracking-tight lg:text-2xl">
                       {s.title}
                     </h2>
-                    <p className="mt-3 text-sm leading-relaxed text-slate-400">{s.blurb}</p>
-                    <span className="mt-auto inline-flex items-center gap-2 pt-6 text-[10px] font-bold uppercase tracking-[0.25em] text-slate-500 transition-colors duration-300 group-hover:text-gold">
+                    <p className="relative mt-3 text-sm leading-relaxed text-slate-400">{s.blurb}</p>
+                    <span className="relative mt-auto inline-flex items-center gap-2 pt-6 text-[10px] font-bold uppercase tracking-[0.25em] text-slate-500 transition-colors duration-300 group-hover:text-gold">
                       {s.category} <ArrowUpRight size={13} />
                     </span>
                     <span

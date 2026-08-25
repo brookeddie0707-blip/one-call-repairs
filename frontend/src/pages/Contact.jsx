@@ -45,7 +45,7 @@ export default function Contact() {
     <>
       <Seo
         title="Contact & Request a Quote | Wise Tech Installers Gauteng"
-        description="Request a quote from Wise Tech Installers — DStv, CCTV, gate motors, garage doors, aircon, painting, waterproofing & TV mounting across Gauteng. Call or WhatsApp 073 052 6871."
+        description="Request a quote from Wise Tech Installers — DStv, CCTV, gate motors, garage doors, aircon, painting, waterproofing & TV mounting across Gauteng. Call or WhatsApp 078 294 7173."
       />
       <PageHeader
         eyebrow="Contact"
