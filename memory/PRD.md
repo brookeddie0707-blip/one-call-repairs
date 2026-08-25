@@ -72,3 +72,7 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 - Added 5 photos: exterior-painting-job (tall), exterior-painting-prep, painting-paint-buckets, samsung-aircon-install, alaska-aircon-install.
 - Painting service card (#07) and Aircon card (#10) now show real photos; Home chapter 03 "Home, elevated" swapped from stock to real painting photo.
 - Gallery now 38 items. Only Waterproofing (#11) still icon-only. Verified via screenshots.
+
+## Update — 25 June 2026 (waterproofing + roofing photos)
+- Added 5 photos: roof-waterproofing-seal (→ Waterproofing card #11), roof-coating-red-tiles, roof-truss-construction, roof-sheeting-stock, roofing-timber-delivery.
+- ALL 15 service cards now show real customer photos. Gallery now 43 items. Verified via screenshots.
