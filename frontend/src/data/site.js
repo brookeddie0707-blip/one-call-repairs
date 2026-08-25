@@ -28,11 +28,11 @@ export const BUSINESS = {
 };
 
 export const SERVICES = [
-  { num: "01", title: "DStv Installations", icon: Satellite, category: "Signal & Satellite", blurb: "Full DStv setups — dish alignment, cabling, decoder activation and channel scan, done in one visit." },
-  { num: "02", title: "DStv Repairs", icon: Wrench, category: "Signal & Satellite", blurb: "No signal, frozen picture or decoder faults diagnosed and repaired on the spot." },
-  { num: "03", title: "Satellite Dish Installation", icon: SatelliteDish, category: "Signal & Satellite", blurb: "New dishes supplied, mounted and aligned for maximum signal strength in any weather." },
-  { num: "04", title: "E48-32 Signal Problem Fix", icon: Signal, category: "Signal & Satellite", blurb: "The dreaded E48-32 no-signal error traced to dish, LNB or cable — and fixed for good." },
-  { num: "05", title: "OpenView Installations", icon: Antenna, category: "Signal & Satellite", blurb: "OpenView dish and decoder installation with all free-to-air channels locked in." },
+  { num: "01", title: "DStv Installations", icon: Satellite, category: "Signal & Satellite", image: "/images/dstv-dish-installation.jpeg", blurb: "Full DStv setups — dish alignment, cabling, decoder activation and channel scan, done in one visit." },
+  { num: "02", title: "DStv Repairs", icon: Wrench, category: "Signal & Satellite", image: "/images/wise-tech-dstv-promo.jpeg", blurb: "No signal, frozen picture or decoder faults diagnosed and repaired on the spot." },
+  { num: "03", title: "Satellite Dish Installation", icon: SatelliteDish, category: "Signal & Satellite", image: "/images/dstv-dish-decoder-combo.jpeg", blurb: "New dishes supplied, mounted and aligned for maximum signal strength in any weather." },
+  { num: "04", title: "E48-32 Signal Problem Fix", icon: Signal, category: "Signal & Satellite", image: "/images/signal-setup-installation-wizard.jpeg", blurb: "The dreaded E48-32 no-signal error traced to dish, LNB or cable — and fixed for good." },
+  { num: "05", title: "OpenView Installations", icon: Antenna, category: "Signal & Satellite", image: "/images/openview-dstv-brands.jpeg", blurb: "OpenView dish and decoder installation with all free-to-air channels locked in." },
   { num: "06", title: "CCTV Installations & Repairs", icon: Cctv, category: "Security & Access", image: "/images/cctv-bullet-camera-install.jpeg", blurb: "HD camera systems designed, installed and linked to your phone — plus repairs to existing setups." },
   { num: "07", title: "Painting Services", icon: Paintbrush, category: "Home & Comfort", blurb: "Interior and exterior painting with clean lines, quality coatings and tidy workmanship." },
   { num: "08", title: "Garage Door Installation & Repairs", icon: DoorOpen, category: "Security & Access", image: "/images/garage-door-wooden-install.jpeg", blurb: "New garage doors fitted, motors repaired, springs and tracks serviced." },
@@ -40,9 +40,9 @@ export const SERVICES = [
   { num: "10", title: "Air Conditioning Installations & Repairs", icon: AirVent, category: "Home & Comfort", blurb: "Split-unit aircons installed, regassed and repaired — sized correctly for your rooms." },
   { num: "11", title: "Waterproofing Services", icon: Droplets, category: "Home & Comfort", blurb: "Roof, parapet and balcony waterproofing that stops leaks at the source." },
   { num: "12", title: "TV Mounting Services", icon: Tv, category: "Home & Comfort", image: "/images/smart-tv-wall-mount-install.jpeg", blurb: "Any TV, any wall — flush, tilt or full-motion brackets with cables neatly concealed." },
-  { num: "13", title: "Extra View Installations", icon: Share2, category: "Signal & Satellite", blurb: "DStv Extra View configured so every room watches independently from one subscription." },
-  { num: "14", title: "LNB Replacements", icon: Replace, category: "Signal & Satellite", blurb: "Faulty smart, quad or universal LNBs swapped and signal re-peaked same day." },
-  { num: "15", title: "DStv Decoder Repairs", icon: HardDrive, category: "Signal & Satellite", blurb: "Explora and HD decoder faults — power, HDMI, hard drive and software issues repaired." },
+  { num: "13", title: "Extra View Installations", icon: Share2, category: "Signal & Satellite", image: "/images/dstv-explora-cable-kit.jpeg", blurb: "DStv Extra View configured so every room watches independently from one subscription." },
+  { num: "14", title: "LNB Replacements", icon: Replace, category: "Signal & Satellite", image: "/images/satellite-dish-kit.jpeg", blurb: "Faulty smart, quad or universal LNBs swapped and signal re-peaked same day." },
+  { num: "15", title: "DStv Decoder Repairs", icon: HardDrive, category: "Signal & Satellite", image: "/images/dstv-explora-decoder-kit.jpeg", blurb: "Explora and HD decoder faults — power, HDMI, hard drive and software issues repaired." },
 ];
 
 export const CHAPTERS = [

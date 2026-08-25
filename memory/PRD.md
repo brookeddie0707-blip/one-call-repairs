@@ -54,3 +54,8 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 - Added 5 more customer photos: garage-door-wooden-install, garage-door-navy-install, centurion-d5-smart-gate-motor (tall), centurion-d3-smart-gate-motor, centurion-d5-evo-gate-motor (tall).
 - Services page: Garage Doors (#08) and Gate Motors (#09) cards now show real photo backgrounds; Home featured Garage Doors card also uses the wooden door photo.
 - Gallery now 28 items. Verified via screenshots.
+
+## Update — 25 June 2026 (services photo mapping)
+- Mapped all uploaded photos onto Services page cards: #01 DStv Installs, #02 DStv Repairs (promo), #03 Satellite Dish (dish+decoder combo), #04 E48-32 (signal wizard), #05 OpenView (brands), #13 Extra View (cable kit), #14 LNB (SPACE dish kit), #15 Decoder Repairs (Explora kit) — in addition to existing #06, #08, #09, #12.
+- #07 Painting, #10 Aircon, #11 Waterproofing remain icon-only (no uploaded photos for these trades yet).
+- Verified via screenshots.
