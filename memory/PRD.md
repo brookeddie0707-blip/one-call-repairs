@@ -67,3 +67,8 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 - Added 5 more photos to gallery (now 33 items): openview-dish-install, dstv-multiswitch-install, cctv-monitoring-wall (tall), tv-bracket-range (tall), garage-door-stock-rollers (tall).
 - OpenView service card (#05) upgraded from brand-logo image to the real dish install photo.
 - Verified via screenshot.
+
+## Update — 25 June 2026 (painting + aircon photos)
+- Added 5 photos: exterior-painting-job (tall), exterior-painting-prep, painting-paint-buckets, samsung-aircon-install, alaska-aircon-install.
+- Painting service card (#07) and Aircon card (#10) now show real photos; Home chapter 03 "Home, elevated" swapped from stock to real painting photo.
+- Gallery now 38 items. Only Waterproofing (#11) still icon-only. Verified via screenshots.
