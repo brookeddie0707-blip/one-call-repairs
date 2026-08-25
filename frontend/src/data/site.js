@@ -47,6 +47,7 @@ export const SERVICES = [
   { num: "15", title: "DStv Decoder Repairs", icon: HardDrive, category: "Signal & Satellite", image: "/images/dstv-explora-decoder-kit.jpeg", blurb: "Explora and HD decoder faults — power, HDMI, hard drive and software issues repaired." },
   { num: "16", title: "Roofing Services", icon: Construction, category: "Home & Comfort", image: "/images/roof-truss-construction.jpeg", blurb: "Roof trusses, sheeting, tiling and repairs — new roofs erected and old ones restored." },
   { num: "17", title: "WiFi Extensions & Signal Boosting", icon: Wifi, category: "Networking & WiFi", image: "/images/wifi-6-router-install.jpeg", blurb: "Dead spots gone. We install WiFi extenders, mesh systems and access points to blanket your whole home or business in strong, fast signal — indoors and out." },
+  { num: "18", title: "Triple View Installations", icon: Share2, category: "Signal & Satellite", image: "/images/dstv-multiswitch-install.jpeg", blurb: "Watch three different channels in three rooms off one DStv subscription — Triple View wired, configured and activated." },
 ];
 
 export const CHAPTERS = [

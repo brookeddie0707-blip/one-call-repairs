@@ -57,7 +57,7 @@ const Hero = () => {
         >
           <p className="max-w-md text-base leading-relaxed text-slate-300 md:text-lg">
             DStv, satellite, Extra View & Triple View, CCTV, gate motors, garage doors, aircon,
-            painting, waterproofing and TV mounting — seventeen trades, one trusted Gauteng team.
+            painting, waterproofing and TV mounting — eighteen trades, one trusted Gauteng team.
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <Link
@@ -181,7 +181,7 @@ const FeaturedServices = () => (
           data-testid="featured-view-all-link"
           className="group flex items-center gap-2 text-xs font-bold uppercase tracking-[0.25em] text-slate-300 transition-colors duration-300 hover:text-gold"
         >
-          All 17 services
+          All 18 services
           <ArrowRight size={15} className="transition-transform duration-300 group-hover:translate-x-1" />
         </Link>
       </Reveal>

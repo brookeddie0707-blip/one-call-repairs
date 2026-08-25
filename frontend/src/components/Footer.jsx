@@ -12,7 +12,7 @@ export const Footer = () => (
           </p>
           <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-slate-400">Installers</p>
           <p className="mt-6 max-w-xs text-sm leading-relaxed text-slate-400">
-            {BUSINESS.tagline}. Seventeen trades, one trusted team, covering the whole of Gauteng.
+            {BUSINESS.tagline}. Eighteen trades, one trusted team, covering the whole of Gauteng.
           </p>
         </div>
 
