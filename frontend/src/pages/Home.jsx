@@ -57,7 +57,7 @@ const Hero = () => {
         >
           <p className="max-w-md text-base leading-relaxed text-slate-300 md:text-lg">
             DStv, satellite, CCTV, gate motors, garage doors, aircon, painting, waterproofing and
-            TV mounting — fifteen trades, one trusted Gauteng team.
+            TV mounting — sixteen trades, one trusted Gauteng team.
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <Link
@@ -86,7 +86,7 @@ const Hero = () => {
           data-testid="hero-stats"
         >
           {[
-            ["15", "Specialist services"],
+            ["16", "Specialist services"],
             ["01", "Call sorts it all"],
             ["100%", "Gauteng covered"],
           ].map(([num, label]) => (
@@ -181,7 +181,7 @@ const FeaturedServices = () => (
           data-testid="featured-view-all-link"
           className="group flex items-center gap-2 text-xs font-bold uppercase tracking-[0.25em] text-slate-300 transition-colors duration-300 hover:text-gold"
         >
-          All 15 services
+          All 16 services
           <ArrowRight size={15} className="transition-transform duration-300 group-hover:translate-x-1" />
         </Link>
       </Reveal>
@@ -225,7 +225,7 @@ const FeaturedServices = () => (
             data-testid="featured-all-services-card"
             className="group flex h-full min-h-[280px] flex-col justify-between bg-gold p-7 text-navy transition-[transform,background-color] duration-300 hover:-translate-y-1 hover:bg-gold-dark"
           >
-            <p className="font-display text-6xl font-black">15</p>
+            <p className="font-display text-6xl font-black">16</p>
             <div>
               <h3 className="font-display text-2xl font-extrabold tracking-tight">
                 Every service, one team.

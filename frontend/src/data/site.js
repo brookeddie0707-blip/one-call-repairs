@@ -14,6 +14,7 @@ import {
   Share2,
   Replace,
   HardDrive,
+  Construction,
 } from "lucide-react";
 
 export const BUSINESS = {
@@ -43,6 +44,7 @@ export const SERVICES = [
   { num: "13", title: "Extra View Installations", icon: Share2, category: "Signal & Satellite", image: "/images/dstv-explora-cable-kit.jpeg", blurb: "DStv Extra View configured so every room watches independently from one subscription." },
   { num: "14", title: "LNB Replacements", icon: Replace, category: "Signal & Satellite", image: "/images/satellite-dish-kit.jpeg", blurb: "Faulty smart, quad or universal LNBs swapped and signal re-peaked same day." },
   { num: "15", title: "DStv Decoder Repairs", icon: HardDrive, category: "Signal & Satellite", image: "/images/dstv-explora-decoder-kit.jpeg", blurb: "Explora and HD decoder faults — power, HDMI, hard drive and software issues repaired." },
+  { num: "16", title: "Roofing Services", icon: Construction, category: "Home & Comfort", image: "/images/roof-truss-construction.jpeg", blurb: "Roof trusses, sheeting, tiling and repairs — new roofs erected and old ones restored." },
 ];
 
 export const CHAPTERS = [
