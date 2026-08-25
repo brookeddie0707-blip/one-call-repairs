@@ -59,3 +59,6 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 - Mapped all uploaded photos onto Services page cards: #01 DStv Installs, #02 DStv Repairs (promo), #03 Satellite Dish (dish+decoder combo), #04 E48-32 (signal wizard), #05 OpenView (brands), #13 Extra View (cable kit), #14 LNB (SPACE dish kit), #15 Decoder Repairs (Explora kit) — in addition to existing #06, #08, #09, #12.
 - #07 Painting, #10 Aircon, #11 Waterproofing remain icon-only (no uploaded photos for these trades yet).
 - Verified via screenshots.
+
+## Update — 25 June 2026 (service areas)
+- Added 12 new service areas: Hartbeespoort, Midstream, Fourways, Moreleta Park, Bryanston, Ferndale, Lonehill, Lynnwood, Northmead, Carlswald, Garsfontein, Northcliff (Randburg was already listed). AREAS now 32 suburbs; renders on Service Area page + Home teaser automatically. Verified via screenshot.

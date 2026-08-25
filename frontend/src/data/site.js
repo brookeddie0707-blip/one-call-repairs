@@ -73,7 +73,9 @@ export const AREAS = [
   "Johannesburg", "Sandton", "Randburg", "Roodepoort", "Soweto", "Midrand",
   "Pretoria", "Centurion", "Kempton Park", "Edenvale", "Bedfordview", "Germiston",
   "Boksburg", "Benoni", "Alberton", "Springs", "Krugersdorp", "Vanderbijlpark",
-  "Vereeniging", "Brakpan",
+  "Vereeniging", "Brakpan", "Hartbeespoort", "Midstream", "Fourways", "Moreleta Park",
+  "Bryanston", "Ferndale", "Lonehill", "Lynnwood", "Northmead", "Carlswald",
+  "Garsfontein", "Northcliff",
 ];
 
 export const GALLERY = [
