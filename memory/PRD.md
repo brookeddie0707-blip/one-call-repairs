@@ -33,3 +33,12 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 1. Collect owner's real email → set OWNER_EMAIL → restart backend → verify emailed:true
 2. Add testimonials section
 3. Add Google Maps embed of Gauteng coverage
+
+## Update — 25 June 2026 (fork session)
+- Added Customer Reviews/Testimonials section on Home page (`components/Testimonials.jsx`): 6 Gauteng reviews with star ratings, 4.9 average badge, placed between GalleryStrip and AreaTeaser.
+- Added 5 user-supplied photos to Gallery + `/public/images/`: wise-tech-dstv-promo, signal-setup-installation-wizard (tall), dstv-explora-cable-kit, dstv-dish-decoder-combo, openview-dstv-brands. Gallery now 18 items; also surfaces on Home gallery strip.
+- Verified via screenshots: testimonials render with correct star fills; all new gallery images load.
+
+### Remaining backlog
+- P1: Google Map embed of Gauteng coverage on Service Area/Contact page
+- P2: "From-pricing" guide on popular services (TV mounting, E48-32 fixes)

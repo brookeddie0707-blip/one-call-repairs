@@ -5,6 +5,7 @@ import { ArrowRight, ArrowUpRight, Phone } from "lucide-react";
 import { Seo } from "@/components/Seo";
 import { KineticLine, FadeIn, Reveal } from "@/components/Motion";
 import { ServiceMarquee } from "@/components/Marquee";
+import { Testimonials } from "@/components/Testimonials";
 import { BUSINESS, CHAPTERS, SERVICES, GALLERY, AREAS } from "@/data/site";
 
 const FEATURED = [
@@ -371,6 +372,7 @@ export default function Home() {
       <Manifesto />
       <FeaturedServices />
       <GalleryStrip />
+      <Testimonials />
       <AreaTeaser />
       <CtaBand />
     </>

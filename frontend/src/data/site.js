@@ -78,6 +78,11 @@ export const AREAS = [
 
 export const GALLERY = [
   { src: "/images/dstv-dish-installation.jpeg", title: "DStv Dish Installation", tag: "Satellite", tall: true },
+  { src: "/images/wise-tech-dstv-promo.jpeg", title: "Get Your DStv Fixed With Us", tag: "DStv Repairs" },
+  { src: "/images/dstv-dish-decoder-combo.jpeg", title: "Dish, LNB & Explora Combo", tag: "Equipment" },
+  { src: "/images/dstv-explora-cable-kit.jpeg", title: "Explora, Cable & Multiswitch Kit", tag: "Equipment" },
+  { src: "/images/signal-setup-installation-wizard.jpeg", title: "Decoder Signal Setup On Site", tag: "Signal Fix", tall: true },
+  { src: "/images/openview-dstv-brands.jpeg", title: "OpenView & DStv Accredited", tag: "OpenView" },
   { src: "/images/satellite-dish-kit.jpeg", title: "Full Satellite Dish Kit", tag: "Equipment" },
   { src: "/images/dstv-explora-decoder-kit.jpeg", title: "Explora Decoder & Fibre Kit", tag: "Equipment" },
   { src: "/images/showmax-explora-setup.jpeg", title: "Explora + Showmax Setup", tag: "Entertainment" },
@@ -90,6 +95,57 @@ export const GALLERY = [
   { src: "https://images.unsplash.com/photo-1645005049035-c35644b627ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwyfHxhdXRvbWF0aWMlMjBzbGlkaW5nJTIwZ2F0ZSUyMGRyaXZld2F5fGVufDB8fHx8MTc4NzY3ODE4MHww&ixlib=rb-4.1.0&q=85", title: "Automatic Sliding Gate", tag: "Gate Motors" },
   { src: "https://images.unsplash.com/photo-1717281234297-3def5ae3eee1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwxfHxob3VzZSUyMHBhaW50aW5nJTIwcHJvZmVzc2lvbmFsfGVufDB8fHx8MTc4NzY3ODE4MHww&ixlib=rb-4.1.0&q=85", title: "Interior Repaint", tag: "Painting" },
   { src: "https://images.pexels.com/photos/33020762/pexels-photo-33020762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", title: "Decoder Board Repair", tag: "Repairs" },
+];
+
+export const TESTIMONIALS = [
+  {
+    name: "Thabo M.",
+    location: "Soweto",
+    service: "DStv Installation",
+    rating: 5,
+    quote:
+      "Called in the morning, dish was up and all channels scanned by lunchtime. Neat cabling and he explained everything. Best installer I've used.",
+  },
+  {
+    name: "Sarah van der Merwe",
+    location: "Centurion",
+    service: "E48-32 Signal Fix",
+    rating: 5,
+    quote:
+      "Two other guys couldn't sort my E48-32 error. Wise Tech found a faulty LNB in 20 minutes and replaced it on the spot. Signal has been perfect since.",
+  },
+  {
+    name: "Sipho N.",
+    location: "Sandton",
+    service: "CCTV Installation",
+    rating: 5,
+    quote:
+      "Four cameras installed and linked to my phone in one afternoon. Professional, on time, and the footage is crystal clear even at night.",
+  },
+  {
+    name: "Priya Naidoo",
+    location: "Midrand",
+    service: "TV Mounting",
+    rating: 5,
+    quote:
+      "65-inch TV mounted dead level with all the cables hidden in the wall. You can't even tell there's a bracket. Very tidy work.",
+  },
+  {
+    name: "Johan B.",
+    location: "Boksburg",
+    service: "Gate Motor Installation",
+    rating: 4,
+    quote:
+      "Gate motor installed and programmed the same week I called. Fair price, solid workmanship, and he serviced my garage door while he was here.",
+  },
+  {
+    name: "Lerato K.",
+    location: "Pretoria",
+    service: "OpenView Installation",
+    rating: 5,
+    quote:
+      "OpenView installed for my mom with zero fuss — dish, decoder and all channels working. She's very happy and so am I. Highly recommended.",
+  },
 ];
 
 export const NAV_LINKS = [
