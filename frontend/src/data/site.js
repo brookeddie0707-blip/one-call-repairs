@@ -1,0 +1,101 @@
+import {
+  Satellite,
+  Wrench,
+  SatelliteDish,
+  Signal,
+  Antenna,
+  Cctv,
+  Paintbrush,
+  DoorOpen,
+  Cog,
+  AirVent,
+  Droplets,
+  Tv,
+  Share2,
+  Replace,
+  HardDrive,
+} from "lucide-react";
+
+export const BUSINESS = {
+  name: "Wise Tech Installers",
+  tagline: "One Call For All Installations & Repairs",
+  phoneDisplay: "073 052 6871",
+  phoneLink: "tel:+27730526871",
+  whatsapp:
+    "https://wa.me/27730526871?text=Hi%20Wise%20Tech%20Installers%2C%20I%27d%20like%20to%20request%20a%20quote.",
+  area: "Gauteng, South Africa",
+  hours: "Mon – Sat · 07:00 – 18:00",
+};
+
+export const SERVICES = [
+  { num: "01", title: "DStv Installations", icon: Satellite, category: "Signal & Satellite", blurb: "Full DStv setups — dish alignment, cabling, decoder activation and channel scan, done in one visit." },
+  { num: "02", title: "DStv Repairs", icon: Wrench, category: "Signal & Satellite", blurb: "No signal, frozen picture or decoder faults diagnosed and repaired on the spot." },
+  { num: "03", title: "Satellite Dish Installation", icon: SatelliteDish, category: "Signal & Satellite", blurb: "New dishes supplied, mounted and aligned for maximum signal strength in any weather." },
+  { num: "04", title: "E48-32 Signal Problem Fix", icon: Signal, category: "Signal & Satellite", blurb: "The dreaded E48-32 no-signal error traced to dish, LNB or cable — and fixed for good." },
+  { num: "05", title: "OpenView Installations", icon: Antenna, category: "Signal & Satellite", blurb: "OpenView dish and decoder installation with all free-to-air channels locked in." },
+  { num: "06", title: "CCTV Installations & Repairs", icon: Cctv, category: "Security & Access", blurb: "HD camera systems designed, installed and linked to your phone — plus repairs to existing setups." },
+  { num: "07", title: "Painting Services", icon: Paintbrush, category: "Home & Comfort", blurb: "Interior and exterior painting with clean lines, quality coatings and tidy workmanship." },
+  { num: "08", title: "Garage Door Installation & Repairs", icon: DoorOpen, category: "Security & Access", blurb: "New garage doors fitted, motors repaired, springs and tracks serviced." },
+  { num: "09", title: "Gate Motor Installation", icon: Cog, category: "Security & Access", blurb: "Sliding and swing gate motors installed, programmed and serviced for reliable daily use." },
+  { num: "10", title: "Air Conditioning Installations & Repairs", icon: AirVent, category: "Home & Comfort", blurb: "Split-unit aircons installed, regassed and repaired — sized correctly for your rooms." },
+  { num: "11", title: "Waterproofing Services", icon: Droplets, category: "Home & Comfort", blurb: "Roof, parapet and balcony waterproofing that stops leaks at the source." },
+  { num: "12", title: "TV Mounting Services", icon: Tv, category: "Home & Comfort", blurb: "Any TV, any wall — flush, tilt or full-motion brackets with cables neatly concealed." },
+  { num: "13", title: "Extra View Installations", icon: Share2, category: "Signal & Satellite", blurb: "DStv Extra View configured so every room watches independently from one subscription." },
+  { num: "14", title: "LNB Replacements", icon: Replace, category: "Signal & Satellite", blurb: "Faulty smart, quad or universal LNBs swapped and signal re-peaked same day." },
+  { num: "15", title: "DStv Decoder Repairs", icon: HardDrive, category: "Signal & Satellite", blurb: "Explora and HD decoder faults — power, HDMI, hard drive and software issues repaired." },
+];
+
+export const CHAPTERS = [
+  {
+    num: "01",
+    title: "Signal, perfected.",
+    copy: "DStv, OpenView, satellite dishes, Extra View and every cryptic error code in between. We align, we cable, we activate — you just press play.",
+    image: "/images/dstv-dish-installation.jpeg",
+    tags: ["DStv", "OpenView", "E48-32", "Extra View", "LNB"],
+  },
+  {
+    num: "02",
+    title: "Secured & automated.",
+    copy: "CCTV you can check from anywhere, garage doors that open first time, and gate motors that never leave you standing in the rain.",
+    image: "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxjY3R2JTIwc2VjdXJpdHklMjBjYW1lcmElMjBtb2Rlcm58ZW58MHx8fHwxNzg3Njc4MTcyfDA&ixlib=rb-4.1.0&q=85",
+    tags: ["CCTV", "Garage Doors", "Gate Motors"],
+  },
+  {
+    num: "03",
+    title: "Home, elevated.",
+    copy: "Painting with crisp edges, aircons sized right, waterproofing that holds through Highveld storms, and TVs mounted dead level.",
+    image: "https://images.unsplash.com/photo-1717281234297-3def5ae3eee1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwxfHxob3VzZSUyMHBhaW50aW5nJTIwcHJvZmVzc2lvbmFsfGVufDB8fHx8MTc4NzY3ODE4MHww&ixlib=rb-4.1.0&q=85",
+    tags: ["Painting", "Air Conditioning", "Waterproofing", "TV Mounting"],
+  },
+];
+
+export const AREAS = [
+  "Johannesburg", "Sandton", "Randburg", "Roodepoort", "Soweto", "Midrand",
+  "Pretoria", "Centurion", "Kempton Park", "Edenvale", "Bedfordview", "Germiston",
+  "Boksburg", "Benoni", "Alberton", "Springs", "Krugersdorp", "Vanderbijlpark",
+  "Vereeniging", "Brakpan",
+];
+
+export const GALLERY = [
+  { src: "/images/dstv-dish-installation.jpeg", title: "DStv Dish Installation", tag: "Satellite", tall: true },
+  { src: "/images/satellite-dish-kit.jpeg", title: "Full Satellite Dish Kit", tag: "Equipment" },
+  { src: "/images/dstv-explora-decoder-kit.jpeg", title: "Explora Decoder & Fibre Kit", tag: "Equipment" },
+  { src: "/images/showmax-explora-setup.jpeg", title: "Explora + Showmax Setup", tag: "Entertainment" },
+  { src: "/images/tv-wall-mount-bracket.jpeg", title: "TV Wall Mount Bracket", tag: "TV Mounting" },
+  { src: "https://images.unsplash.com/photo-1528499908559-b8e4e8b89bda?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwyfHxzYXRlbGxpdGUlMjBkaXNoJTIwc3Vuc2V0fGVufDB8fHx8MTc4NzY3ODE3Mnww&ixlib=rb-4.1.0&q=85", title: "Dish Alignment at Dusk", tag: "Satellite", tall: true },
+  { src: "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxjY3R2JTIwc2VjdXJpdHklMjBjYW1lcmElMjBtb2Rlcm58ZW58MHx8fHwxNzg3Njc4MTcyfDA&ixlib=rb-4.1.0&q=85", title: "CCTV Camera Install", tag: "Security" },
+  { src: "https://images.pexels.com/photos/7587782/pexels-photo-7587782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", title: "Flush TV Wall Mount", tag: "TV Mounting" },
+  { src: "https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwzfHxhaXIlMjBjb25kaXRpb25pbmclMjB3YWxsJTIwdW5pdCUyMG1vZGVybnxlbnwwfHx8fDE3ODc2NzgxNzJ8MA&ixlib=rb-4.1.0&q=85", title: "Split-Unit Aircon Install", tag: "Air Conditioning" },
+  { src: "https://images.pexels.com/photos/17158676/pexels-photo-17158676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", title: "Modern Garage Door", tag: "Garage Doors", tall: true },
+  { src: "https://images.unsplash.com/photo-1645005049035-c35644b627ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwyfHxhdXRvbWF0aWMlMjBzbGlkaW5nJTIwZ2F0ZSUyMGRyaXZld2F5fGVufDB8fHx8MTc4NzY3ODE4MHww&ixlib=rb-4.1.0&q=85", title: "Automatic Sliding Gate", tag: "Gate Motors" },
+  { src: "https://images.unsplash.com/photo-1717281234297-3def5ae3eee1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwxfHxob3VzZSUyMHBhaW50aW5nJTIwcHJvZmVzc2lvbmFsfGVufDB8fHx8MTc4NzY3ODE4MHww&ixlib=rb-4.1.0&q=85", title: "Interior Repaint", tag: "Painting" },
+  { src: "https://images.pexels.com/photos/33020762/pexels-photo-33020762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", title: "Decoder Board Repair", tag: "Repairs" },
+];
+
+export const NAV_LINKS = [
+  { to: "/", label: "Home", testid: "nav-link-home" },
+  { to: "/services", label: "Services", testid: "nav-link-services" },
+  { to: "/service-area", label: "Service Area", testid: "nav-link-service-area" },
+  { to: "/gallery", label: "Gallery", testid: "nav-link-gallery" },
+  { to: "/contact", label: "Contact", testid: "nav-link-contact" },
+];

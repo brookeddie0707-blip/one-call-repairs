@@ -1,0 +1,175 @@
+{
+  "theme": "dark",
+  "design_philosophy": {
+    "art_direction": "Bold cohesive art direction leaning into an 'Awwwards-level' premium aesthetic for home services. We are elevating installation and repair services into a high-end, luxury technical experience.",
+    "core_vibe": "Professional, Technical, Elite, Trustworthy.",
+    "key_elements": [
+      "Large kinetic hero with masked line-by-line on-load reveal.",
+      "Real product photography treated deliberately with dark navy overlays and amber accents.",
+      "Numbered manifesto chapters to build trust and authority.",
+      "One slow editorial marquee for service list.",
+      "Premium motion with framer-motion scroll reveals and micro-interactions.",
+      "Lenis smooth scrolling for weight and premium feel.",
+      "Subtle parallax hero moment."
+    ]
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Cabinet Grotesk, sans-serif",
+      "weights": ["700", "800", "900"],
+      "styles": "Tight letter spacing (tracking-tight), never centered by default, bold and technical. Use fluid scaling."
+    },
+    "body": {
+      "font_family": "Outfit, sans-serif",
+      "weights": ["300", "400", "500"],
+      "styles": "Clean, highly readable, loose line height (leading-relaxed)."
+    },
+    "accents_labels": {
+      "font_family": "Outfit, sans-serif",
+      "styles": "Uppercase, tracking-[0.2em], text-xs or text-sm, often in amber/gold."
+    },
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap",
+    "custom_fonts_instructions": "Add Cabinet Grotesk via Fontshare API in index.html: <link href=\"https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700,900&display=swap\" rel=\"stylesheet\">"
+  },
+  "colors": {
+    "primary": {
+      "name": "Amber/Gold Accent",
+      "hex": "#E5A93C",
+      "tailwind": "bg-[#E5A93C] text-[#E5A93C]"
+    },
+    "background": {
+      "name": "Deep Navy",
+      "hex": "#050A14",
+      "tailwind": "bg-[#050A14]"
+    },
+    "surface": {
+      "name": "Surface Navy",
+      "hex": "#0A1121",
+      "tailwind": "bg-[#0A1121]"
+    },
+    "surface_light": {
+      "name": "Glass Navy",
+      "hex": "rgba(10, 17, 33, 0.6)",
+      "tailwind": "bg-[#0A1121]/60"
+    },
+    "text": {
+      "primary": "#F8FAFC",
+      "secondary": "#94A3B8"
+    },
+    "borders": {
+      "default": "rgba(255, 255, 255, 0.08)",
+      "tailwind": "border-white/10"
+    }
+  },
+  "visual_enhancers": {
+    "surfaces": "Glassmorphism (The 'Crystal' Variant) for Sticky Nav: bg-[#0A1121]/60 backdrop-blur-xl border-b border-white/10. Dashboard/Bento cards use flat backgrounds with 1px border-white/10 and NO shadow. On hover, translate-y-[-4px] and subtle glow.",
+    "gradients": "NO generic full-screen gradients. Use localized soft radial glows behind key elements in #E5A93C with 10% opacity.",
+    "overlays": "Hero images must use bg-black/40 overlay to ensure text contrast while letting the image breathe.",
+    "marquee": "The 'Editorial Ribbon' - Slow moving, subtle. Dark Navy background, Pale grey or Gold outline text, font-serif or clean sans, massive gaps.",
+    "grid_borders": "The 'Technical' Look - Expose the grid skeleton in the services section using border-collapse style layouts with 1px borders."
+  },
+  "components_and_layouts": {
+    "hero_section": "Kinetic Masked Reveal. H1 text uses Framer Motion overflow-hidden and y-axis translation. Subtle parallax on the background image. Overlay dark navy gradient.",
+    "services_grid": "Bento Grid Protocol. Asymmetrical layout mixing spans (e.g., col-span-2 row-span-2 for primary services, col-span-1 for minor repairs). Minimalist cards, sharp edges or max 4px radius.",
+    "numbered_manifesto": "Large typography numbers (01, 02, 03) in gold, paired with strong benefit-driven copy. Staggered reveal on scroll.",
+    "gallery_section": "Masonry or overlapping card layout. Real photos. On hover, slight scale-up of image with a glassmorphism caption appearing.",
+    "contact_form": "Shadcn-based form, heavily customized. Dark inputs (bg-white/5), sharp borders (border-white/10), Gold submit button. Include WhatsApp floating action button fixed to bottom right."
+  },
+  "motion_and_interactions": {
+    "smooth_scrolling": "Lenis is MANDATORY. Initialize in App.js or main layout wrapper.",
+    "scroll_reveals": "Use framer-motion for whileInView staggered fades and slight Y translations. Elements should feel like they 'land' softly.",
+    "hero_kinetic": "Text split into lines. Each line wrapped in a hidden overflow container. Framer motion animate y from 100% to 0%.",
+    "hover_states": "Interactive elements must transition colors and slightly translate. High contrast on focus.",
+    "accessibility": "Respect prefers-reduced-motion in Framer Motion configurations."
+  },
+  "media_and_images": {
+    "hero_image": {
+      "url": "https://images.pexels.com/photos/14499728/pexels-photo-14499728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Stylish urban house representing premium home services.",
+      "category": "Hero Background"
+    },
+    "gallery_and_services": [
+      {
+        "url": "https://images.unsplash.com/photo-1528499908559-b8e4e8b89bda?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwyfHxzYXRlbGxpdGUlMjBkaXNoJTIwc3Vuc2V0fGVufDB8fHx8MTc4NzY3ODE3Mnww&ixlib=rb-4.1.0&q=85",
+        "description": "Satellite dish installation",
+        "category": "Services - DStv & Satellite"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxjY3R2JTIwc2VjdXJpdHklMjBjYW1lcmElMjBtb2Rlcm58ZW58MHx8fHwxNzg3Njc4MTcyfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern CCTV security cameras",
+        "category": "Services - CCTV"
+      },
+      {
+        "url": "https://images.pexels.com/photos/7587782/pexels-photo-7587782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Flat screen TV wall mount",
+        "category": "Services - TV Mounting"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwzfHxhaXIlMjBjb25kaXRpb25pbmclMjB3YWxsJTIwdW5pdCUyMG1vZGVybnxlbnwwfHx8fDE3ODc2NzgxNzJ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern air conditioning unit",
+        "category": "Services - Air Conditioning"
+      },
+      {
+        "url": "https://images.pexels.com/photos/17158676/pexels-photo-17158676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Modern garage door",
+        "category": "Services - Garage Doors"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1645005049035-c35644b627ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwyfHxhdXRvbWF0aWMlMjBzbGlkaW5nJTIwZ2F0ZSUyMGRyaXZld2F5fGVufDB8fHx8MTc4NzY3ODE4MHww&ixlib=rb-4.1.0&q=85",
+        "description": "Automatic sliding gate",
+        "category": "Services - Gate Motors"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1717281234297-3def5ae3eee1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwxfHxob3VzZSUyMHBhaW50aW5nJTIwcHJvZmVzc2lvbmFsfGVufDB8fHx8MTc4NzY3ODE4MHww&ixlib=rb-4.1.0&q=85",
+        "description": "Professional house painting",
+        "category": "Services - Painting"
+      },
+      {
+        "url": "https://images.pexels.com/photos/33020762/pexels-photo-33020762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Technician working on electronics",
+        "category": "Services - Decoder Repairs"
+      }
+    ],
+    "image_rules": "All images MUST be used. Ensure images in bento grids have overlay gradients to maintain text legibility. Hero images MUST use a dark overlay (bg-black/40 or bg-[#050A14]/60) so the premium gold text stands out."
+  },
+  "dependencies": [
+    "framer-motion",
+    "lucide-react",
+    "@phosphor-icons/react",
+    "react-fast-marquee",
+    "@studio-freight/lenis",
+    "clsx",
+    "tailwind-merge"
+  ],
+  "routing": [
+    "/ (Home)",
+    "/services (Services & Pricing)",
+    "/service-area (Gauteng Coverage)",
+    "/gallery (Visual Proof)",
+    "/contact (Quote Form & Contact Details)"
+  ],
+  "instructions_to_main_agent": [
+    "Install specific dependencies: `yarn add framer-motion @phosphor-icons/react react-fast-marquee @studio-freight/lenis`.",
+    "This is a premium React SPA. Ensure React Router is configured with 5 distinct pages.",
+    "The client specifically requested 'Award-worthy Awwwards-level design'. Do NOT use standard Vercel/Stripe boilerplate. Use large dramatic typography, vast negative space (p-12 to p-32), and strict grid alignments.",
+    "Do not center-align the main layout. Left-align large typographic elements for an editorial feel.",
+    "Navigation: Create a glassmorphic sticky top nav. It must not be completely transparent.",
+    "Floating Action Button: Include a fixed WhatsApp button (bottom-right) linking to 0730526871 across all routes.",
+    "Hero Section: Implement the kinetic text reveal. Wrap text lines in an overflow-hidden span and use framer-motion to slide them up on mount.",
+    "Marquee: Use `react-fast-marquee` in the Home page for a slow-moving list of services. Style it with the outline text technique: text-transparent webkit-text-stroke-1 stroke-white/20.",
+    "Grid Layouts: Use the Bento Grid Protocol for the services section. Use varied row and col spans to break the monotony.",
+    "Testing: Add `data-testid` to all interactive elements."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Do not use generic centered layouts, simplistic gradients, or uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: `transition: all`.",
+    "You MUST NOT center align the app container.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER use AI assistant Emoji characters.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states."
+  ]
+}
