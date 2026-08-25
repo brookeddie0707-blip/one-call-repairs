@@ -62,3 +62,8 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 
 ## Update — 25 June 2026 (service areas)
 - Added 12 new service areas: Hartbeespoort, Midstream, Fourways, Moreleta Park, Bryanston, Ferndale, Lonehill, Lynnwood, Northmead, Carlswald, Garsfontein, Northcliff (Randburg was already listed). AREAS now 32 suburbs; renders on Service Area page + Home teaser automatically. Verified via screenshot.
+
+## Update — 25 June 2026 (gallery batch 4)
+- Added 5 more photos to gallery (now 33 items): openview-dish-install, dstv-multiswitch-install, cctv-monitoring-wall (tall), tv-bracket-range (tall), garage-door-stock-rollers (tall).
+- OpenView service card (#05) upgraded from brand-logo image to the real dish install photo.
+- Verified via screenshot.
