@@ -13,7 +13,7 @@ const FEATURED = [
   { service: SERVICES[3], span: "" },
   { service: SERVICES[5], image: "/images/cctv-bullet-camera-install.jpeg", span: "" },
   { service: SERVICES[11], image: "/images/smart-tv-wall-mount-install.jpeg", span: "" },
-  { service: SERVICES[7], span: "" },
+  { service: SERVICES[7], image: "/images/garage-door-wooden-install.jpeg", span: "" },
 ];
 
 const Hero = () => {

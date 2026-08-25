@@ -49,3 +49,8 @@ Build a 5-page website for "Wise Tech Installers" (tagline: "One Call For All In
 - Services page cards now support optional background photo (CCTV #06 + TV Mounting #12 use real photos).
 - Home: chapter 02 image + Featured CCTV/TV-mounting cards now use real photos (fixed stale GALLERY index refs).
 - Gallery now 23 items. Verified via screenshots.
+
+## Update — 25 June 2026 (third batch)
+- Added 5 more customer photos: garage-door-wooden-install, garage-door-navy-install, centurion-d5-smart-gate-motor (tall), centurion-d3-smart-gate-motor, centurion-d5-evo-gate-motor (tall).
+- Services page: Garage Doors (#08) and Gate Motors (#09) cards now show real photo backgrounds; Home featured Garage Doors card also uses the wooden door photo.
+- Gallery now 28 items. Verified via screenshots.
