@@ -15,6 +15,7 @@ import {
   Replace,
   HardDrive,
   Construction,
+  Wifi,
 } from "lucide-react";
 
 export const BUSINESS = {
@@ -45,6 +46,7 @@ export const SERVICES = [
   { num: "14", title: "LNB Replacements", icon: Replace, category: "Signal & Satellite", image: "/images/satellite-dish-kit.jpeg", blurb: "Faulty smart, quad or universal LNBs swapped and signal re-peaked same day." },
   { num: "15", title: "DStv Decoder Repairs", icon: HardDrive, category: "Signal & Satellite", image: "/images/dstv-explora-decoder-kit.jpeg", blurb: "Explora and HD decoder faults — power, HDMI, hard drive and software issues repaired." },
   { num: "16", title: "Roofing Services", icon: Construction, category: "Home & Comfort", image: "/images/roof-truss-construction.jpeg", blurb: "Roof trusses, sheeting, tiling and repairs — new roofs erected and old ones restored." },
+  { num: "17", title: "WiFi Extensions & Signal Boosting", icon: Wifi, category: "Networking & WiFi", image: "/images/wifi-6-router-install.jpeg", blurb: "Dead spots gone. We install WiFi extenders, mesh systems and access points to blanket your whole home or business in strong, fast signal — indoors and out." },
 ];
 
 export const CHAPTERS = [
@@ -121,6 +123,9 @@ export const GALLERY = [
   { src: "/images/dstv-explora-decoder-kit.jpeg", title: "Explora Decoder & Fibre Kit", tag: "Equipment" },
   { src: "/images/showmax-explora-setup.jpeg", title: "Explora + Showmax Setup", tag: "Entertainment" },
   { src: "/images/tv-wall-mount-bracket.jpeg", title: "TV Wall Mount Bracket", tag: "TV Mounting" },
+  { src: "/images/wifi-repeater-extender.jpeg", title: "WiFi Range Extender Fitted", tag: "WiFi", tall: true },
+  { src: "/images/wifi-outdoor-access-point.jpeg", title: "Outdoor WiFi Access Point", tag: "WiFi" },
+  { src: "/images/wifi-ceiling-access-point.jpeg", title: "Access Point & Network Point", tag: "WiFi", tall: true },
   { src: "https://images.unsplash.com/photo-1528499908559-b8e4e8b89bda?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwyfHxzYXRlbGxpdGUlMjBkaXNoJTIwc3Vuc2V0fGVufDB8fHx8MTc4NzY3ODE3Mnww&ixlib=rb-4.1.0&q=85", title: "Dish Alignment at Dusk", tag: "Satellite", tall: true },
   { src: "https://images.unsplash.com/photo-1589935447067-5531094415d1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxjY3R2JTIwc2VjdXJpdHklMjBjYW1lcmElMjBtb2Rlcm58ZW58MHx8fHwxNzg3Njc4MTcyfDA&ixlib=rb-4.1.0&q=85", title: "CCTV Camera Install", tag: "Security" },
   { src: "https://images.pexels.com/photos/7587782/pexels-photo-7587782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", title: "Flush TV Wall Mount", tag: "TV Mounting" },

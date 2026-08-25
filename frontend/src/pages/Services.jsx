@@ -11,11 +11,11 @@ export default function Services() {
     <>
       <Seo
         title="Services | Wise Tech Installers — Gauteng Installations & Repairs"
-        description="All 16 services: DStv installations & repairs, satellite dishes, E48-32 fixes, OpenView, CCTV, painting, garage doors, gate motors, aircon, waterproofing, roofing, TV mounting & more across Gauteng."
+        description="All 17 services: DStv installations & repairs, satellite dishes, E48-32 fixes, OpenView, CCTV, painting, garage doors, gate motors, aircon, waterproofing, roofing, TV mounting, WiFi extensions & signal boosting & more across Gauteng."
       />
       <PageHeader
         eyebrow="Our services"
-        title="Sixteen trades."
+        title="Seventeen trades."
         highlight="One team."
         copy="Every installation and repair below is handled by our own technicians — no call centres, no subcontractors, no runaround. Pick your fix and get a same-day response."
       />
